@@ -6,11 +6,11 @@ namespace ConsoleApp2.FactoryPattern {
         {
         }
 
-        public override Furniture CreateTable() {
+        public override Table CreateTable() {
             return new OfficeTable();
         }
 
-        public override Furniture CreateChair() {
+        public override Chair CreateChair() {
             return new OfficeChair();
         }
     }

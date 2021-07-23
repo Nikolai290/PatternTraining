@@ -9,7 +9,7 @@ namespace ConsoleApp2.FactoryPattern {
             Console.WriteLine(Name + " was been created");
         }
 
-        public abstract Furniture CreateTable();
-        public abstract Furniture CreateChair();
+        public abstract Table CreateTable();
+        public abstract Chair CreateChair();
     }
 }
