@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.FactoryPattern {
+namespace PatternTraining.FactoryPattern {
     abstract class Table : Furniture {
     }
 }

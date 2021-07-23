@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.StrategyPattern {
+﻿namespace PatternTraining.StrategyPattern {
     public interface IDrink {
         void Drink();
     }

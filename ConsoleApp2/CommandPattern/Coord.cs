@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.CommandPattern {
+namespace PatternTraining.CommandPattern {
     public class Coord {
         public int X { get; set; }
         public int Y { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.MediatorPattern.Interfaces {
+namespace PatternTraining.MediatorPattern.Interfaces {
     public interface IMediator {
         void Send<TRequest> (IRequest<TRequest> request);
         TResponse Send<TRequest, TResponse> (IRequest<TRequest, TResponse> request);

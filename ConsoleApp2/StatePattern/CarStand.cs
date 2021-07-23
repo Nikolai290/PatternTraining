@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp2.StatePattern {
+namespace PatternTraining.StatePattern {
     public class CarStand :ICarState{
 
         public CarStand() {

@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.CarDrivingSimulate.GameManager.Cars.AbstractCar {
+﻿namespace PatternTraining.CarDrivingSimulate.GameManager.Cars.AbstractCar {
     public abstract class Car {
 
         public int EngineForce { get; set; }

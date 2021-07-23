@@ -1,22 +1,22 @@
-using ConsoleApp2.CommandPattern;
-using ConsoleApp2.CommandPattern.Commands;
-using ConsoleApp2.FactoryPattern;
-using ConsoleApp2.MediatorPattern.Example;
-using ConsoleApp2.MediatorPattern.Implementation;
-using ConsoleApp2.MediatorPattern.Interfaces;
-using ConsoleApp2.ObserverPattern;
-using ConsoleApp2.StatePattern;
-using ConsoleApp2.StrategyPattern;
+using PatternTraining.CommandPattern;
+using PatternTraining.CommandPattern.Commands;
+using PatternTraining.FactoryPattern;
+using PatternTraining.MediatorPattern.Example;
+using PatternTraining.MediatorPattern.Implementation;
+using PatternTraining.MediatorPattern.Interfaces;
+using PatternTraining.ObserverPattern;
+using PatternTraining.StatePattern;
+using PatternTraining.StrategyPattern;
 using System;
 using System.Text;
 
-namespace ConsoleApp2 {
+namespace PatternTraining {
     class Program {
 
         static void Main(string[] args) {
             Console.OutputEncoding = Encoding.UTF8;
 
-            MediatorPatternTest();
+            ObserverTest();
 
             Console.ReadKey();
         }
@@ -92,8 +92,10 @@ namespace ConsoleApp2 {
         private static void ObserverTest() {
             var rnd = new Random();
             var character = new ObserverPattern.Character(100);
-            var indicator = new HealthIndicator();
-            character.AddObserver(indicator);
+            var healthUi = new HealthUI();
+            var jumpUi = new JumpCounterUI();
+            character.AddObserver(healthUi);
+            character.AddObserver(jumpUi);
 
             void Damage() {
                 character.HealthChange(-rnd.Next(10, 20));
@@ -113,6 +115,9 @@ namespace ConsoleApp2 {
                         break;
                     case 'h':
                         Healing();
+                        break;
+                    case 'j':
+                        character.Jump();
                         break;
                 }
             }

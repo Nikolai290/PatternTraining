@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.CommandPattern.Commands {
+﻿namespace PatternTraining.CommandPattern.Commands {
 
     public enum CommandType {
         GoUp,

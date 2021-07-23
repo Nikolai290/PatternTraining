@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.FactoryPattern {
+﻿namespace PatternTraining.FactoryPattern {
     class Furniture {
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.CarDrivingSimulate {
+namespace PatternTraining.CarDrivingSimulate {
     public class ScreenData {
         public string EngineSpeed { get; set; }
         public string VechicleSpeed { get; set; }

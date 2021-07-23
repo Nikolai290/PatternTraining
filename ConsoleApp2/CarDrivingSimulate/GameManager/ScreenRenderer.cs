@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.CarDrivingSimulate {
+namespace PatternTraining.CarDrivingSimulate {
     public class ScreenRenderer {
 
         public int FrameTime { get; private set; }

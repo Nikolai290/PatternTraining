@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.FactoryPattern.Funiture {
+namespace PatternTraining.FactoryPattern.Funiture {
     class OfficeChair : Chair{
         public OfficeChair() {
             Console.WriteLine("Office Chair was been created");

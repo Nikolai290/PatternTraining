@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.MediatorPattern.Interfaces {
+﻿namespace PatternTraining.MediatorPattern.Interfaces {
     public interface IRequestHandler {
         //void Handle(IRequest request);
         //TResponse Handle<TRequest, TResponse>(IRequest<TRequest> request);

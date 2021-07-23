@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.StrategyPattern {
+namespace PatternTraining.StrategyPattern {
     public class Tea : IDrink {
         public void Drink() {
             Console.WriteLine("Выпить чаю");

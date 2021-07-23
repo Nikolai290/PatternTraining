@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace ConsoleApp2.StatePattern {
+namespace PatternTraining.StatePattern {
     public class Car : ICarStatable {
         public string Name { get; set; }
         public ICarState State { get; set; }

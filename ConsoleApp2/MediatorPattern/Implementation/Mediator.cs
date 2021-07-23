@@ -1,8 +1,8 @@
-﻿using ConsoleApp2.MediatorPattern.Interfaces;
+﻿using PatternTraining.MediatorPattern.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace ConsoleApp2.MediatorPattern.Implementation {
+namespace PatternTraining.MediatorPattern.Implementation {
     public class Mediator : IMediator {
 
         public static IMediator Instance;

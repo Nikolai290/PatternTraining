@@ -1,7 +1,7 @@
-﻿using ConsoleApp2.CommandPattern.Commands;
+﻿using PatternTraining.CommandPattern.Commands;
 using System.Collections.Generic;
 
-namespace ConsoleApp2.CommandPattern {
+namespace PatternTraining.CommandPattern {
     public class CommandManager {
         public Dictionary<CommandType, ICommand> Commands { get; set; }
         public Stack<ICommand> CommandsHistory { get; set; }

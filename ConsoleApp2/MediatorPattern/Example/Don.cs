@@ -1,6 +1,6 @@
-﻿using ConsoleApp2.MediatorPattern.Interfaces;
+﻿using PatternTraining.MediatorPattern.Interfaces;
 
-namespace ConsoleApp2.MediatorPattern.Example {
+namespace PatternTraining.MediatorPattern.Example {
     public class Don : IRequestHandler<Din, string> {
 
         public string Handle(Din request) {

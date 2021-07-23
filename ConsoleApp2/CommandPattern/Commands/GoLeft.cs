@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.CommandPattern.Commands {
+﻿namespace PatternTraining.CommandPattern.Commands {
     public class GoLeft : ICommand {
         public Character Character { get; set; }
 

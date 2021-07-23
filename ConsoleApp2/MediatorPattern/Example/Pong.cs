@@ -1,7 +1,7 @@
-﻿using ConsoleApp2.MediatorPattern.Interfaces;
+﻿using PatternTraining.MediatorPattern.Interfaces;
 using System;
 
-namespace ConsoleApp2.MediatorPattern.Example {
+namespace PatternTraining.MediatorPattern.Example {
     public class Pong : IRequestHandler<Ping> {
         public int Number { get; private set; }
         public string pong = "pong";

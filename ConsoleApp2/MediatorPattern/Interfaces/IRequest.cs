@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.MediatorPattern.Interfaces {
+﻿namespace PatternTraining.MediatorPattern.Interfaces {
     public interface IRequest {
     }
 

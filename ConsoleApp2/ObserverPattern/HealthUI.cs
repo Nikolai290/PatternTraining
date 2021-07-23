@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace ConsoleApp2.ObserverPattern {
-    public class HealthIndicator : IObserver {
+namespace PatternTraining.ObserverPattern {
+    public class HealthUI : IObserver {
         public void Update(object obj) {
             if (obj is Character) {
                 var character = (Character)obj;

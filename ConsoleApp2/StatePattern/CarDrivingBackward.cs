@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.StatePattern {
+namespace PatternTraining.StatePattern {
     internal class CarDrivingBackward : ICarState {
         public CarDrivingBackward() {
             Console.WriteLine("движется назад");

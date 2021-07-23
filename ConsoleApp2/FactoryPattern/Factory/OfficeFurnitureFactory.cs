@@ -1,6 +1,6 @@
-﻿using ConsoleApp2.FactoryPattern.Funiture;
+﻿using PatternTraining.FactoryPattern.Funiture;
 
-namespace ConsoleApp2.FactoryPattern {
+namespace PatternTraining.FactoryPattern {
     class OfficeFurnitureFactory : FurnitureFactory {
         public OfficeFurnitureFactory(string name) : base(name)
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp2.FactoryPattern.Funiture {
+namespace PatternTraining.FactoryPattern.Funiture {
     class OfficeTable : Table {
         public OfficeTable() {
             Console.WriteLine("Office Table was been created");

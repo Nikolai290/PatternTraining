@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.StrategyPattern {
+﻿namespace PatternTraining.StrategyPattern {
     public class Man {
         private IDrink Glass { get; set; }
         public string Name { get; set; }

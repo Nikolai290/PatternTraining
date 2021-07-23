@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.ObserverPattern.Indicators {
+﻿namespace PatternTraining.ObserverPattern.Indicators {
     public abstract class AbstractIndicator {
         public int Max { get; private set; }
         public int Current { get; private set; }
